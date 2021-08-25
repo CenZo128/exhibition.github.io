@@ -112,7 +112,7 @@ body {
 .words img {
     width: 100%;
 }
-.words h3, .words p, .words a {
+.words h3, .words p, .words button  {
     position: absolute;
     z-index : 100;
 }
@@ -126,7 +126,7 @@ body {
     width: 125px;
     font-size : 0.75rem;
 }
-.words a {
+.words button {
     left: 30px;
     top : 215px;
 }
@@ -153,7 +153,7 @@ body {
 .schedule-box img {
     width: 3.5rem;
 }
-.schedule-box > h3 {
+.schedule-box > h3 { /* direct child */
     color : #ffffff;
     margin-bottom: 0.75rem;
 }
@@ -226,14 +226,14 @@ body {
 }
 .location-box-child > img{
     width : 100%;
-    rotate: -5deg;
+    transform: rotate(-5deg);
 }
 .location-box-child h3, .location-box-child p{
     margin-bottom:1rem;
-    rotate: 5deg;
+    transform: rotate(5deg);
 }
 .location-box-child a {
     color: white;
     text-decoration: none;
-    rotate: -5deg;
+    transform: rotate(-5deg);
 }
